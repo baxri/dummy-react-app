@@ -1104,9 +1104,13 @@ var Example = function (_Component) {
                 'div',
                 null,
                 _react2.default.createElement(
-                    'label',
+                    'p',
                     null,
-                    'Change input value'
+                    _react2.default.createElement(
+                        'label',
+                        null,
+                        'Change input value'
+                    )
                 ),
                 _react2.default.createElement('input', { onChange: function onChange(e) {
                         return _this2.changeEvent(e);
