@@ -1083,7 +1083,7 @@ var Example = function (_Component) {
         var _this = _possibleConstructorReturn(this, (Example.__proto__ || Object.getPrototypeOf(Example)).call(this));
 
         _this.state = {
-            fullname: 'Hello React App!'
+            fullname: 'Hello React App'
         };
         return _this;
     }
