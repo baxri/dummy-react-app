@@ -6,7 +6,7 @@ export default class Example extends Component {
     constructor(){
         super();
         this.state = {
-            fullname : 'Hello React App',
+            fullname : 'Hello React App!',
         };
     }
 
