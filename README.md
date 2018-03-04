@@ -1,3 +1,8 @@
 # Dummy React App
 
-Integrating React into an existing application is surprisingly simple. In many cases, it is actually simpler than starting from scratch. Seriously.
+Example application how to use react with simple file structure, 
+using webpack and gulp task runner.
+
+clone this repository using `git clone` and install all dependencies via `npm install`.
+Then you can run gulp watcher using `gulp default` command or just `gulp` and 
+lets coding in react :)
