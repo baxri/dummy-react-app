@@ -1103,13 +1103,14 @@ var Example = function (_Component) {
             return _react2.default.createElement(
                 'div',
                 null,
+                _react2.default.createElement(UserGreeting, null),
                 _react2.default.createElement(
                     'p',
                     null,
                     _react2.default.createElement(
                         'label',
                         null,
-                        'Change input value'
+                        'Change Value:'
                     )
                 ),
                 _react2.default.createElement('input', { onChange: function onChange(e) {
@@ -1129,6 +1130,14 @@ var Example = function (_Component) {
 
 exports.default = Example;
 
+
+function UserGreeting(props) {
+    return _react2.default.createElement(
+        'h1',
+        null,
+        'Welcome back!'
+    );
+}
 
 if (document.getElementById('example')) {
     _reactDom2.default.render(_react2.default.createElement(Example, null), document.getElementById('example'));

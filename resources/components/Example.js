@@ -16,15 +16,22 @@ export default class Example extends Component {
         });
     }
 
+
+
     render() {
         return (
             <div>
-                <p><label>Change Value</label></p>
+                <UserGreeting />
+                <p><label>Change Value:</label></p>
                 <input onChange={(e) => this.changeEvent(e)} value={this.state.fullname} />
                 <p>{this.state.fullname}</p>
             </div>
         );
     }
+}
+
+function UserGreeting(props) {
+    return <h1>Welcome back!</h1>;
 }
 
 if (document.getElementById('example')) {
