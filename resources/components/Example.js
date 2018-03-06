@@ -16,15 +16,15 @@ export default class Example extends Component {
         });
     }
 
-    alert(e){
+    linkClick(e){
+        alert(this.state.fullname);
         e.preventDefault();
-        alert('Yes it is!!!');
     }
 
     render() {
         return (
             <div>
-                <CustomLink onClick={(e) => this.alert(e)} />
+                <CustomLink onClick={(e) => this.linkClick(e)} />
                 <p><label>Change Value:</label></p>
                 <input onChange={(e) => this.changeEvent(e)} value={this.state.fullname} />
                 <p>{this.state.fullname}</p>
