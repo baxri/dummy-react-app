@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="93fcb594-87ca-4689-a83f-45bfadda98fa" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" afterPath="$PROJECT_DIR$/public/js/app.js" />
-      <change beforePath="$PROJECT_DIR$/resources/components/Example.js" afterPath="$PROJECT_DIR$/resources/components/Example.js" />
-    </list>
+    <list default="true" id="93fcb594-87ca-4689-a83f-45bfadda98fa" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,8 +27,8 @@
       <file leaf-file-name="Example.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/components/Example.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+            <state relative-caret-position="392">
+              <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -217,12 +213,12 @@
       <workItem from="1520188972888" duration="2596000" />
       <workItem from="1520269690439" duration="144000" />
       <workItem from="1520276399473" duration="1335000" />
-      <workItem from="1520357737052" duration="3007000" />
+      <workItem from="1520357737052" duration="3065000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29420000" />
+    <option name="totallyTimeSpent" value="29478000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -624,8 +620,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/components/Example.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+        <state relative-caret-position="392">
+          <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
           <folding />
         </state>
       </provider>

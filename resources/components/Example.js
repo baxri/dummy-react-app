@@ -21,7 +21,6 @@ export default class Example extends Component {
         alert('Yes it is!!!');
     }
 
-
     render() {
         return (
             <div>
