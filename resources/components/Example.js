@@ -16,12 +16,16 @@ export default class Example extends Component {
         });
     }
 
+    alert(e){
+        e.preventDefault();
+        alert('Yes it is!!!');
+    }
 
 
     render() {
         return (
             <div>
-                <UserGreeting />
+                <CustomLink onClick={(e) => this.alert(e)} />
                 <p><label>Change Value:</label></p>
                 <input onChange={(e) => this.changeEvent(e)} value={this.state.fullname} />
                 <p>{this.state.fullname}</p>
@@ -30,8 +34,8 @@ export default class Example extends Component {
     }
 }
 
-function UserGreeting(props) {
-    return <h1>Welcome back!</h1>;
+function CustomLink(props) {
+    return <a href="#" onClick={props.onClick}>Welcome back!</a>;
 }
 
 if (document.getElementById('example')) {

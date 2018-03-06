@@ -1096,6 +1096,22 @@ var Example = function (_Component) {
             });
         }
     }, {
+        key: 'alert',
+        value: function (_alert) {
+            function alert(_x) {
+                return _alert.apply(this, arguments);
+            }
+
+            alert.toString = function () {
+                return _alert.toString();
+            };
+
+            return alert;
+        }(function (e) {
+            e.preventDefault();
+            alert('Yes it is!!!');
+        })
+    }, {
         key: 'render',
         value: function render() {
             var _this2 = this;
@@ -1103,7 +1119,9 @@ var Example = function (_Component) {
             return _react2.default.createElement(
                 'div',
                 null,
-                _react2.default.createElement(UserGreeting, null),
+                _react2.default.createElement(CustomLink, { onClick: function onClick(e) {
+                        return _this2.alert(e);
+                    } }),
                 _react2.default.createElement(
                     'p',
                     null,
@@ -1131,10 +1149,10 @@ var Example = function (_Component) {
 exports.default = Example;
 
 
-function UserGreeting(props) {
+function CustomLink(props) {
     return _react2.default.createElement(
-        'h1',
-        null,
+        'a',
+        { href: '#', onClick: props.onClick },
         'Welcome back!'
     );
 }
