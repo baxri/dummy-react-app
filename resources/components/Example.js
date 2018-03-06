@@ -19,7 +19,7 @@ export default class Example extends Component {
     render() {
         return (
             <div>
-                <p><label>Edit</label></p>
+                <p><label>Enter Some Text</label></p>
                 <input onChange={(e) => this.changeEvent(e)} value={this.state.fullname} />
                 <p>{this.state.fullname}</p>
             </div>
